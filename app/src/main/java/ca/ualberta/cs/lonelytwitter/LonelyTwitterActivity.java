@@ -43,7 +43,7 @@ public class LonelyTwitterActivity extends Activity {
 		Button saveButton = (Button) findViewById(R.id.save); //view
 		oldTweetsList = (ListView) findViewById(R.id.oldTweetsList); //view
 
-		saveButton.setOnClickListener(new View.OnClickListener() {
+		saveButton.setOnClickListener(new View.OnClickListener() { //controller
 
 			public void onClick(View v) { //controller
 				setResult(RESULT_OK); //model
