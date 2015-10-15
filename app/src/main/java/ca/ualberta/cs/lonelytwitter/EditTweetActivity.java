@@ -14,10 +14,10 @@ public class EditTweetActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_tweet);
 
-        
+
 
     }
-
+//words
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
